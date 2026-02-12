@@ -282,7 +282,7 @@ public final class TemplateView extends FrameLayout {
     nativeAdView = (NativeAdView) findViewById(R.id.native_ad_view);
     primaryView = (TextView) findViewById(R.id.primary);
     secondaryView = (TextView) findViewById(R.id.secondary);
-    tertiaryView = (TextView) findViewById(R.id.body);
+    // tertiaryView = (TextView) findViewById(R.id.body);
 
     ratingBar = (RatingBar) findViewById(R.id.rating_bar);
     ratingBar.setEnabled(false);
